@@ -15,6 +15,15 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "README"
   ]
+  s.files = [
+    ".gitignore",
+     "MIT-LICENSE",
+     "README",
+     "Rakefile",
+     "VERSION",
+     "lib/time_zone_warp.rb",
+     "time-zone-warp.gemspec"
+  ]
   s.homepage = %q{http://github.com/adeptware/time-zone-warp}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]

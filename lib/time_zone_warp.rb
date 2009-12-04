@@ -1,3 +1,5 @@
+require 'test/unit'
+
 module TimeZoneWarp
   def pretend_zone_is(zone)
     original_zone = Time.zone

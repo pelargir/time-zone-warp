@@ -12,9 +12,9 @@ Gem:
 
 $ sudo gem install time-zone-warp
 
-Gem config in a Rails app. Add to environment.rb:
+Gem config in a Rails app. Add to test.rb:
 
-config.gem 'time-zone-warp'
+config.gem 'time-zone-warp', :lib => 'time_zone_warp'
 
 
 Example
